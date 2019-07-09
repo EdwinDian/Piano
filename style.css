@@ -1,0 +1,39 @@
+.piano > *{
+	font-family: arial;
+}
+
+.piano-read_csv {
+	background-color: #f1f1f1;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	margin: 10px;
+	width: 35%;
+}
+
+.piano-read_csv-input, 
+.piano-read_csv-output {
+	padding: 20px;
+}
+
+.piano-read_csv-input > *, 
+.piano-read_csv-output > * {
+	display: block;
+}
+
+
+.piano-read_csv-input-label, 
+.piano-read_csv-output-label {
+	color: #2196F3;
+	font-weight: 700;
+	padding: 5px 0;
+}
+ 
+.piano-read_csv-output-text {
+	border: 1pt solid #cccccc;
+}
+
+textarea {
+	font-family: arial;
+	height: 100%;
+	outline: none;
+	width: 100%;
+}

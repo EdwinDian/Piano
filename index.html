@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Piano Data Merge Exercise</title>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="piano">
+		<!--div class="piano-get_userid">
+			<div class="piano-get_userid-input">
+				<label class="piano-get_userid-input-label">User Email</label>
+				<input class="piano-get_userid-input-text" type="text">
+				<button class="piano-get_userid-input-button">Lookup User ID</button>
+			</div>
+			<div class="piano-get_userid-output">
+				<label class="piano-get_userid-output-label">User ID</label>
+				<input class="piano-get_userid-output-text" type="text" value="Submit an email to lookup an ID" disabled>
+			</div>
+		</div-->
+		
+		<div class="piano-read_csv">
+			<div class="piano-read_csv-input">
+				<label class="piano-read_csv-input-label">Client Data: ID Validation</label>
+				<input class="piano-read_csv-input-text" type="file" id="csvFileInput" onchange="handleFiles(this.files)" accept=".csv">
+			</div>
+			<div class="piano-read_csv-output">
+				<label class="piano-read_csv-output-label">ID Changes</label>
+				<textarea class="piano-read_csv-output-text" rows="8" readonly></textarea>
+				<!--input class="piano-read_csv-output-text" type="text" value="Submit a CSV to see any ID updates" disabled -->
+			<div class="">
+				
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
