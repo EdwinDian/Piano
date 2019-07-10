@@ -1,5 +1,5 @@
 # Requirements
-Complete assignment in 2 different programming languages of your choice
+Complete assignment in 2 different programming languages of your choice.  
 Provide a github link to 2 project upon completion
 
 # Assignment
