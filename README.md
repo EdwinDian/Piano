@@ -5,7 +5,7 @@ Provide a github link to 2 project upon completion
 # Assignment
 The client has provided 2 csv files with user data that they would like to import to the system:
 ### File A:
-user_id,email
+user_id,email  
 oi6IhEzu9R,user_2@example.com  
 fQFLNRDae8,user_5@example.com  
 fBYRtPtAlC,user_7@example.com  
