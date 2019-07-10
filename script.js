@@ -70,7 +70,7 @@ function processData(csv) {
 			});
 		};
 	});
-	console.log(lines);
+	//console.log(lines);
 	
 	let csvContent = "data:text/csv;charset=utf-8," + lines.map(e => e.join(",")).join("\n");
 	

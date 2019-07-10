@@ -31,11 +31,12 @@
 		<div class="piano-read_csv">
 			<div class="piano-read_csv-input">
 				<label class="piano-read_csv-input-label">Client Data: ID Validation</label>
+				<p class="piano-read_csv-input-paragraph">Validates user IDs from Client files against the Piano database.  Discrepencies will be highlighted below and an updated client file will save to your local machine. Please ensure "<strong><em>email</em></strong>" is the <strong>2nd column in your CSV</strong>.</p>
 				<input class="piano-read_csv-input-text" type="file" id="csvFileInput" onchange="handleFiles(this.files)" accept=".csv">
 			</div>
 			<div class="piano-read_csv-output">
 				<label class="piano-read_csv-output-label">ID Changes</label>
-				<textarea class="piano-read_csv-output-text" rows="8" readonly></textarea>
+				<textarea class="piano-read_csv-output-text" rows="4" readonly></textarea>
 				<!--input class="piano-read_csv-output-text" type="text" value="Submit a CSV to see any ID updates" disabled -->
 			<div class="">
 				
