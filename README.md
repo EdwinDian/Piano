@@ -39,3 +39,20 @@ API documentation - https://docs.piano.io/api
 Domain for API requests - sandbox.tinypass.com  
 AID (Application ID) - o1sRRZSLlw  
 API Token - zziNT81wShznajW2BD5eLA4VCkmNJ88Guye7Sw4D
+
+# Conclusion
+I've used JS and jQuery to allow the user to validate a merged version of the
+clients data, in the column order defined in the exercise.  The page
+will then list the rows that were changed (based on email address as the
+reference point) as well as auto download an updated version of the CSV,
+with the IDs from the Piano DB.
+
+### Further enhancements/obsticles:
+-  Due to CORS restrictions, I didnt set up the API query (although you
+can see the call commented out in the JS code).  Instead I exported the
+JSON and saved it locally (currently in site files).
+-  To accept the client CSV in any given column order and identify the
+email address column.
+-  To further enhance the UI.
+-  Additional testing across various browsers and responsiveness to various resolutions and devices.
+
